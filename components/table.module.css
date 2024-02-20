@@ -1,0 +1,47 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead tr th {
+  font-weight: 500;
+  color: #666f81;
+  padding: 1rem;
+  text-align: center;
+}
+
+.table tbody tr td {
+  padding: 1rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.table tbody tr {
+  background-color: #fff;
+  height: 3rem;
+  border-radius: 25px;
+  border: 2px solid #edeef0;
+  transition: 0.15s;
+}
+
+.table--clickable tbody tr:hover {
+  background-color: #f5f6f8;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.paid {
+  background-color: #e5f7ef;
+  color: #196d3b;
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+
+.unfulfilled {
+  background-color: #fffaea;
+  color: #b64707;
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+
+/* #DDE0E5 */

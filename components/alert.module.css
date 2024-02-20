@@ -1,0 +1,27 @@
+.alert-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  padding: 0.1rem 1rem;
+  border-radius: 0.5rem;
+  gap: 1rem;
+  min-width: 25rem;
+  min-height: 3rem;
+  background-color: #e4f5e4;
+  color: #4a6b4b;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 0 1px;
+  z-index: 10000;
+  transition: 0.15s linear;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.alert-container--visible {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.15s linear;
+}

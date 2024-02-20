@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem auto;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #0076ff;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.15s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transition: 0.15s;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
